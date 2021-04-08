@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AppSidebarNavigation: View {
-    @ObservedObject var settingInfo: UserData
+    @ObservedObject var settingInfo: DataController
 //    var sideBar: some View {
 //        List {
 //            NavigationLink(destination: TimelineMenu(), tag: TabIdentifier.timeline, selection: $settingInfo.currentSideBarPage){
@@ -63,6 +63,6 @@ struct AppSidebarNavigation: View {
 
 struct AppSidebarNavigation_Previews: PreviewProvider {
     static var previews: some View {
-        AppSidebarNavigation(settingInfo: UserData())
+        AppSidebarNavigation(settingInfo: DataController())
     }
 }

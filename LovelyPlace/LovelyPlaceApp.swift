@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct LovelyPlaceApp: App {
     let persistenceController = PersistenceController.shared
-    @StateObject var settingInfo = UserData()
+    @StateObject var settingInfo = DataController()
     var body: some Scene {
         WindowGroup {
             ContentView(settingInfo: settingInfo)

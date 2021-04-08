@@ -9,7 +9,7 @@ import SwiftUI
 import WidgetKit
 
 struct MediumDayCounter: View {
-    @ObservedObject var settingInfo: UserData
+    @ObservedObject var settingInfo: DataController
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color(.systemGray5), .accentColor]), startPoint: .top, endPoint: .bottom)
@@ -40,7 +40,7 @@ struct MediumDayCounter: View {
 
 struct MediumDayCounter_Previews: PreviewProvider {
     static var previews: some View {
-        MediumDayCounter(settingInfo: UserData())
+        MediumDayCounter(settingInfo: DataController())
             .previewContext(WidgetPreviewContext(family: .systemMedium))
     }
 }

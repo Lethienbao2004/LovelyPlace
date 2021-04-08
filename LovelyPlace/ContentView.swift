@@ -14,7 +14,7 @@ struct ContentView: View {
 
        
     
-    @ObservedObject var settingInfo: UserData
+    @ObservedObject var settingInfo: DataController
     #if os(iOS)
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     #endif
@@ -78,6 +78,6 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(settingInfo: UserData())
+        ContentView(settingInfo: DataController())
     }
 }

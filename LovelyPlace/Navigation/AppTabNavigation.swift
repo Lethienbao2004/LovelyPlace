@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AppTabNavigation: View {
-    @ObservedObject var settingInfo: UserData
+    @ObservedObject var settingInfo: DataController
     
     var body: some View {
         TabView(selection: $settingInfo.currentTabBarPage){
@@ -36,6 +36,6 @@ struct AppTabNavigation: View {
 
 struct AppTabNavigation_Previews: PreviewProvider {
     static var previews: some View {
-        AppTabNavigation(settingInfo: UserData())
+        AppTabNavigation(settingInfo: DataController())
     }
 }

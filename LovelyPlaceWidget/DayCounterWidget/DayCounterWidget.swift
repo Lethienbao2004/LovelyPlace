@@ -47,10 +47,10 @@ struct DayCounterWidgetEntryView : View {
 
     @ViewBuilder var body: some View {
         switch family {
-        case .systemSmall: SmallDayCounter(settingInfo: UserData())
-        case .systemMedium: MediumDayCounter(settingInfo: UserData())
-        case .systemLarge: LargeDayCounter(settingInfo: UserData())
-        default: SmallDayCounter(settingInfo: UserData())
+        case .systemSmall: SmallDayCounter(settingInfo: DataController())
+        case .systemMedium: MediumDayCounter(settingInfo: DataController())
+        case .systemLarge: LargeDayCounter(settingInfo: DataController())
+        default: SmallDayCounter(settingInfo: DataController())
         }
     }
 }

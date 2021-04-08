@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct EditProfileView: View {
-    @ObservedObject var settingInfo: UserData
+    @ObservedObject var settingInfo: DataController
     var body: some View {
         List{
             PeopleApperanceView(people: $settingInfo.info.me)
@@ -19,6 +19,6 @@ struct EditProfileView: View {
 
 struct EditProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        EditProfileView(settingInfo: UserData())
+        EditProfileView(settingInfo: DataController())
     }
 }

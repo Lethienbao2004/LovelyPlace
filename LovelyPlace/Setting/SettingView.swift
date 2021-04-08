@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingView: View {
-    @ObservedObject var settingInfo: UserData
+    @ObservedObject var settingInfo: DataController
     
     
     var body: some View {
@@ -28,6 +28,6 @@ struct SettingView: View {
 
 struct SettingView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingView(settingInfo: UserData())
+        SettingView(settingInfo: DataController())
     }
 }

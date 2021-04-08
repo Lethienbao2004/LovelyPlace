@@ -24,7 +24,7 @@ struct Property: Codable {
     var me: People
     var you: People
 }
-class UserData: NSObject, ObservableObject, WCSessionDelegate {
+class DataController: NSObject, ObservableObject, WCSessionDelegate {
     //MARK: - Calculate Date
     
     @Published var currentSideBarPage: TabIdentifier? = .timeline {

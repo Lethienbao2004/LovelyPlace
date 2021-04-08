@@ -9,7 +9,7 @@ import SwiftUI
 import WidgetKit
 
 struct LargeDayCounter: View {
-    @ObservedObject var settingInfo: UserData
+    @ObservedObject var settingInfo: DataController
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color(.systemGray5), .accentColor]), startPoint: .top, endPoint: .bottom)
@@ -34,7 +34,7 @@ struct LargeDayCounter: View {
 
 struct LargeDayCounter_Previews: PreviewProvider {
     static var previews: some View {
-        LargeDayCounter(settingInfo: UserData())
+        LargeDayCounter(settingInfo: DataController())
             .previewContext(WidgetPreviewContext(family: .systemLarge))
     }
 }

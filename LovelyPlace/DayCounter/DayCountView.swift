@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DayCountView: View {
-    @ObservedObject var settingInfo: UserData //{
+    @ObservedObject var settingInfo: DataController //{
 //        didSet {
 //            countedDate = calculateDate()
 //        }
@@ -56,7 +56,7 @@ struct DayCountView: View {
 
 struct DayCountView_Previews: PreviewProvider {
     static var previews: some View {
-        DayCountView(settingInfo: UserData())
+        DayCountView(settingInfo: DataController())
         
     }
 }

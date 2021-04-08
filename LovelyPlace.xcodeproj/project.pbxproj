@@ -29,14 +29,14 @@
 		BEA9B83C25520527000FB5C7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9B83B25520527000FB5C7 /* ComplicationController.swift */; };
 		BEA9B83E25520527000FB5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA9B83D25520527000FB5C7 /* Assets.xcassets */; };
 		BEA9B84125520527000FB5C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA9B84025520527000FB5C7 /* Preview Assets.xcassets */; };
-		BEA9B84625520527000FB5C7 /* LovelyPlaceWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEA9B82525520524000FB5C7 /* LovelyPlaceWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEA9B84625520527000FB5C7 /* LovelyPlaceWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEA9B82525520524000FB5C7 /* LovelyPlaceWatch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BEA9B8542552063C000FB5C7 /* DaycountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9B8532552063C000FB5C7 /* DaycountView.swift */; };
 		BEA9B85B2552064C000FB5C7 /* AWSettingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9B85A2552064C000FB5C7 /* AWSettingInfo.swift */; };
 		BEA9B86825520687000FB5C7 /* BezelGraphicCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9B86725520687000FB5C7 /* BezelGraphicCircularView.swift */; };
 		BEACFA8824F7E03600349512 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEACFA8724F7E03600349512 /* EditEventView.swift */; };
 		BEB1DB1C24E723E50070F443 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1DB1B24E723E50070F443 /* SettingView.swift */; };
 		BEB1DB2024E9B17C0070F443 /* TimelineMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1DB1F24E9B17C0070F443 /* TimelineMenu.swift */; };
-		BEB1DB3F24EBA39D0070F443 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1DB3E24EBA39D0070F443 /* UserData.swift */; };
+		BEB1DB3F24EBA39D0070F443 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1DB3E24EBA39D0070F443 /* DataController.swift */; };
 		BEB1ECF724B1EBF0001398F3 /* LovelyPlaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1ECF624B1EBF0001398F3 /* LovelyPlaceApp.swift */; };
 		BEB1ECF924B1EBF0001398F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1ECF824B1EBF0001398F3 /* ContentView.swift */; };
 		BEB1ECFB24B1EBF2001398F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB1ECFA24B1EBF2001398F3 /* Assets.xcassets */; };
@@ -64,7 +64,7 @@
 		BEE767572532DA61007336E2 /* MediumDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE767552532DA61007336E2 /* MediumDayCounter.swift */; };
 		BEE7675E2532DA66007336E2 /* LargeDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7675D2532DA66007336E2 /* LargeDayCounter.swift */; };
 		BEE7675F2532DA66007336E2 /* LargeDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7675D2532DA66007336E2 /* LargeDayCounter.swift */; };
-		BEE767652532DAEC007336E2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1DB3E24EBA39D0070F443 /* UserData.swift */; };
+		BEE767652532DAEC007336E2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1DB3E24EBA39D0070F443 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,7 +168,7 @@
 		BEB1DB2724EA665C0070F443 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		BEB1DB2924EA665C0070F443 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		BEB1DB3724EA665F0070F443 /* LovelyPlaceWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LovelyPlaceWidgetExtension.entitlements; sourceTree = "<group>"; };
-		BEB1DB3E24EBA39D0070F443 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		BEB1DB3E24EBA39D0070F443 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		BEB1ECF324B1EBF0001398F3 /* LovelyPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovelyPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB1ECF624B1EBF0001398F3 /* LovelyPlaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovelyPlaceApp.swift; sourceTree = "<group>"; };
 		BEB1ECF824B1EBF0001398F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -322,7 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB1DB1B24E723E50070F443 /* SettingView.swift */,
-				BEB1DB3E24EBA39D0070F443 /* UserData.swift */,
+				BEB1DB3E24EBA39D0070F443 /* DataController.swift */,
 				BE4456DE24F3B52C0013222E /* EditProfileView.swift */,
 				BE4456E024F3B5DB0013222E /* PeopleApperanceView.swift */,
 			);
@@ -669,7 +669,7 @@
 				BEE7674E2532DA56007336E2 /* SmallDayCounter.swift in Sources */,
 				BEDF05FF2500FB4600591051 /* InformationContainerView.swift in Sources */,
 				BEB1DB2024E9B17C0070F443 /* TimelineMenu.swift in Sources */,
-				BEB1DB3F24EBA39D0070F443 /* UserData.swift in Sources */,
+				BEB1DB3F24EBA39D0070F443 /* DataController.swift in Sources */,
 				BEDF06012500FBDF00591051 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,7 +691,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE767652532DAEC007336E2 /* UserData.swift in Sources */,
+				BEE767652532DAEC007336E2 /* DataController.swift in Sources */,
 				BEE767572532DA61007336E2 /* MediumDayCounter.swift in Sources */,
 				BE9076422534EFC700CD926D /* TabIdentifier.swift in Sources */,
 				BEE7674F2532DA56007336E2 /* SmallDayCounter.swift in Sources */,
@@ -715,6 +715,7 @@
 		};
 		BEA9B84525520527000FB5C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = BEA9B82425520524000FB5C7 /* LovelyPlaceWatch */;
 			targetProxy = BEA9B84425520527000FB5C7 /* PBXContainerItemProxy */;
 		};

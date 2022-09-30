@@ -50,6 +50,9 @@ struct DayCounterWidgetEntryView : View {
         case .systemSmall: SmallDayCounter(settingInfo: DataController())
         case .systemMedium: MediumDayCounter(settingInfo: DataController())
         case .systemLarge: LargeDayCounter(settingInfo: DataController())
+        case .accessoryInline: InlineDayCounter(settingInfo: DataController())
+        case .accessoryRectangular: RectangularDayCounter(settingInfo: DataController())
+        case .accessoryCircular: CircularDayCounter(settingInfo: DataController())
         default: SmallDayCounter(settingInfo: DataController())
         }
     }
@@ -65,6 +68,7 @@ struct DayCounterWidget: Widget {
         }
         .configurationDisplayName("Day Counter")
         .description("Keep track of how many days you belong together.")
+        .supportedFamilies([.accessoryInline,.accessoryCircular,.accessoryRectangular])
     }
 }
 
@@ -72,5 +76,6 @@ struct LovelyPlaceWidget_Previews: PreviewProvider {
     static var previews: some View {
         DayCounterWidgetEntryView(entry: SimpleEntry(date: Date()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
+        
     }
 }

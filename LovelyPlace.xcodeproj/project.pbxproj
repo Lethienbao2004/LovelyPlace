@@ -13,6 +13,10 @@
 		BE4456DD24F12F840013222E /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4456DC24F12F840013222E /* SplashScreenView.swift */; };
 		BE4456DF24F3B52C0013222E /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4456DE24F3B52C0013222E /* EditProfileView.swift */; };
 		BE4456E124F3B5DB0013222E /* PeopleApperanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4456E024F3B5DB0013222E /* PeopleApperanceView.swift */; };
+		BE50676D28E6A716003B515E /* CircularDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50676C28E6A716003B515E /* CircularDayCounter.swift */; };
+		BE50676E28E6A716003B515E /* CircularDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50676C28E6A716003B515E /* CircularDayCounter.swift */; };
+		BE50677028E6A85E003B515E /* RectangularDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50676F28E6A85E003B515E /* RectangularDayCounter.swift */; };
+		BE50677128E6A85E003B515E /* RectangularDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50676F28E6A85E003B515E /* RectangularDayCounter.swift */; };
 		BE59558C25202DF7006D2CE6 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE6EC9C6251679830022C05C /* DataModel.xcdatamodeld */; };
 		BE6EC9BB251679440022C05C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EC9BA251679440022C05C /* Persistence.swift */; };
 		BE6EC9E825168E4F0022C05C /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EC9E625168E4F0022C05C /* Item+CoreDataClass.swift */; };
@@ -49,6 +53,8 @@
 		BEB1ED2B24B23CD8001398F3 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1ED2924B23CD8001398F3 /* TimelineView.swift */; };
 		BEB1ED3224B23E5E001398F3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1ED3124B23E5E001398F3 /* Event.swift */; };
 		BEB1ED3324B23E5E001398F3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1ED3124B23E5E001398F3 /* Event.swift */; };
+		BEB9CB2028E6845F0033A86F /* InlineDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB9CB1F28E6845F0033A86F /* InlineDayCounter.swift */; };
+		BEB9CB2128E6845F0033A86F /* InlineDayCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB9CB1F28E6845F0033A86F /* InlineDayCounter.swift */; };
 		BEC650DE25202FBB00388E0E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE6EC9C6251679830022C05C /* DataModel.xcdatamodeld */; };
 		BEDF05FB2500F8C900591051 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF05FA2500F8C900591051 /* Modifier.swift */; };
 		BEDF05FD2500FAD900591051 /* InformationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF05FC2500FAD900591051 /* InformationDetailView.swift */; };
@@ -140,6 +146,8 @@
 		BE4456DC24F12F840013222E /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		BE4456DE24F3B52C0013222E /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		BE4456E024F3B5DB0013222E /* PeopleApperanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleApperanceView.swift; sourceTree = "<group>"; };
+		BE50676C28E6A716003B515E /* CircularDayCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularDayCounter.swift; sourceTree = "<group>"; };
+		BE50676F28E6A85E003B515E /* RectangularDayCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularDayCounter.swift; sourceTree = "<group>"; };
 		BE6EC9BA251679440022C05C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BE6EC9C7251679830022C05C /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		BE6EC9E625168E4F0022C05C /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -184,6 +192,7 @@
 		BEB1ED2524B23C9B001398F3 /* NewEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventView.swift; sourceTree = "<group>"; };
 		BEB1ED2924B23CD8001398F3 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		BEB1ED3124B23E5E001398F3 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BEB9CB1F28E6845F0033A86F /* InlineDayCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineDayCounter.swift; sourceTree = "<group>"; };
 		BEDF05FA2500F8C900591051 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 		BEDF05FC2500FAD900591051 /* InformationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDetailView.swift; sourceTree = "<group>"; };
 		BEDF05FE2500FB4600591051 /* InformationContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationContainerView.swift; sourceTree = "<group>"; };
@@ -433,6 +442,9 @@
 				BEE7674D2532DA56007336E2 /* SmallDayCounter.swift */,
 				BEE767552532DA61007336E2 /* MediumDayCounter.swift */,
 				BEE7675D2532DA66007336E2 /* LargeDayCounter.swift */,
+				BEB9CB1F28E6845F0033A86F /* InlineDayCounter.swift */,
+				BE50676C28E6A716003B515E /* CircularDayCounter.swift */,
+				BE50676F28E6A85E003B515E /* RectangularDayCounter.swift */,
 			);
 			path = DayCounterWidget;
 			sourceTree = "<group>";
@@ -658,6 +670,7 @@
 				BEB1ECF724B1EBF0001398F3 /* LovelyPlaceApp.swift in Sources */,
 				BEE767562532DA61007336E2 /* MediumDayCounter.swift in Sources */,
 				BE6EC9E825168E4F0022C05C /* Item+CoreDataClass.swift in Sources */,
+				BE50676D28E6A716003B515E /* CircularDayCounter.swift in Sources */,
 				BEB1ED2624B23C9C001398F3 /* NewEventView.swift in Sources */,
 				BE4456E124F3B5DB0013222E /* PeopleApperanceView.swift in Sources */,
 				BEE7675E2532DA66007336E2 /* LargeDayCounter.swift in Sources */,
@@ -670,6 +683,8 @@
 				BEDF05FF2500FB4600591051 /* InformationContainerView.swift in Sources */,
 				BEB1DB2024E9B17C0070F443 /* TimelineMenu.swift in Sources */,
 				BEB1DB3F24EBA39D0070F443 /* DataController.swift in Sources */,
+				BEB9CB2028E6845F0033A86F /* InlineDayCounter.swift in Sources */,
+				BE50677028E6A85E003B515E /* RectangularDayCounter.swift in Sources */,
 				BEDF06012500FBDF00591051 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,7 +710,10 @@
 				BEE767572532DA61007336E2 /* MediumDayCounter.swift in Sources */,
 				BE9076422534EFC700CD926D /* TabIdentifier.swift in Sources */,
 				BEE7674F2532DA56007336E2 /* SmallDayCounter.swift in Sources */,
+				BE50677128E6A85E003B515E /* RectangularDayCounter.swift in Sources */,
 				BEE7675F2532DA66007336E2 /* LargeDayCounter.swift in Sources */,
+				BEB9CB2128E6845F0033A86F /* InlineDayCounter.swift in Sources */,
+				BE50676E28E6A716003B515E /* CircularDayCounter.swift in Sources */,
 				BEE767472532DA49007336E2 /* DayCounterWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,7 +766,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -773,7 +791,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -794,7 +812,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -815,7 +833,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -871,7 +889,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -927,7 +945,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -949,7 +967,7 @@
 				DEVELOPMENT_TEAM = 6446CYV4HU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LovelyPlace/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -974,7 +992,7 @@
 				DEVELOPMENT_TEAM = 6446CYV4HU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LovelyPlace/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -995,7 +1013,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6446CYV4HU;
 				INFOPLIST_FILE = LovelyPlaceTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1017,7 +1035,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6446CYV4HU;
 				INFOPLIST_FILE = LovelyPlaceTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1041,7 +1059,8 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 6446CYV4HU;
 				INFOPLIST_FILE = LovelyPlaceWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1066,7 +1085,8 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 6446CYV4HU;
 				INFOPLIST_FILE = LovelyPlaceWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -27,25 +27,7 @@ struct Property: Codable {
 class DataController: NSObject, ObservableObject, WCSessionDelegate {
     //MARK: - Calculate Date
     
-    @Published var currentSideBarPage: TabIdentifier? = .timeline {
-        didSet{
-            guard let page = currentSideBarPage else {return}
-            if currentSideBarPage != currentTabBarPage {
-                currentTabBarPage = page
-            }
-        }
-    }
-    @Published var currentTabBarPage: TabIdentifier = .timeline {
-        didSet{
-            if currentSideBarPage != currentTabBarPage {
-                currentSideBarPage = currentTabBarPage
-            }
-        }
-            
-    }
-    
-    
-    
+    @Published var currentSideBarPage: TabIdentifier? = .timeline
     @Published var dateComponents: Int = 0 {
         didSet {
             sendMessage(message: ["date": dateComponents])

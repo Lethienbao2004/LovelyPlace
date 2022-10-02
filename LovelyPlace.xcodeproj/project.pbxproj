@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE2152A0251F1A44003A611B /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EC9E725168E4F0022C05C /* Item+CoreDataProperties.swift */; };
 		BE29A43524EE5B360093E7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB1ECFA24B1EBF2001398F3 /* Assets.xcassets */; };
+		BE35DE3828E995CE004D1BD0 /* BindingOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35DE3728E995CD004D1BD0 /* BindingOptional.swift */; };
 		BE4456D124F0F7060013222E /* TabIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4456D024F0F7060013222E /* TabIdentifier.swift */; };
 		BE4456DD24F12F840013222E /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4456DC24F12F840013222E /* SplashScreenView.swift */; };
 		BE4456DF24F3B52C0013222E /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4456DE24F3B52C0013222E /* EditProfileView.swift */; };
@@ -142,6 +143,7 @@
 
 /* Begin PBXFileReference section */
 		BE0B1280253AD14500A3C06B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BE35DE3728E995CD004D1BD0 /* BindingOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingOptional.swift; sourceTree = "<group>"; };
 		BE4456D024F0F7060013222E /* TabIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabIdentifier.swift; sourceTree = "<group>"; };
 		BE4456DC24F12F840013222E /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		BE4456DE24F3B52C0013222E /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
@@ -242,6 +244,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE35DE3428E98B1A004D1BD0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE35DE3728E995CD004D1BD0 /* BindingOptional.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		BE73B13D24E5479000149915 /* DayCounter */ = {
 			isa = PBXGroup;
 			children = (
@@ -387,6 +397,7 @@
 				BE8772EA24B64C07005C43B7 /* Timeline */,
 				BE73B13D24E5479000149915 /* DayCounter */,
 				BE8AB2CA251F9AE2005D8A2B /* Core Data */,
+				BE35DE3428E98B1A004D1BD0 /* Extension */,
 				BEB1DB1A24E723B60070F443 /* Setting */,
 				BEB1ECFA24B1EBF2001398F3 /* Assets.xcassets */,
 				BEB1ECFF24B1EBF2001398F3 /* Info.plist */,
@@ -679,6 +690,7 @@
 				BE4456D124F0F7060013222E /* TabIdentifier.swift in Sources */,
 				BE6EC9E925168E4F0022C05C /* Item+CoreDataProperties.swift in Sources */,
 				BE73B14124E54AAB00149915 /* DayCountView.swift in Sources */,
+				BE35DE3828E995CE004D1BD0 /* BindingOptional.swift in Sources */,
 				BEE7674E2532DA56007336E2 /* SmallDayCounter.swift in Sources */,
 				BEDF05FF2500FB4600591051 /* InformationContainerView.swift in Sources */,
 				BEB1DB2024E9B17C0070F443 /* TimelineMenu.swift in Sources */,

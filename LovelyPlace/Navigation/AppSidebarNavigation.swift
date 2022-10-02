@@ -32,32 +32,36 @@ struct AppSidebarNavigation: View {
 //        }
 //    }
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink(destination: TimelineMenu(), tag: TabIdentifier.timeline, selection: $settingInfo.currentSideBarPage){
+        NavigationSplitView {
+            List(selection: $settingInfo.currentSideBarPage) {
+                
+                NavigationLink(value: TabIdentifier.timeline) {
                     Label("Timeline", systemImage: "calendar")
                 }
-                
-                NavigationLink(destination: DayCountView(settingInfo: settingInfo), tag: TabIdentifier.daycounter, selection: $settingInfo.currentSideBarPage){
+                NavigationLink(value: TabIdentifier.daycounter) {
                     Label("Day Counter", systemImage: "calendar.badge.clock")
                 }
-                
-                NavigationLink(destination: SettingView(settingInfo: settingInfo), tag: TabIdentifier.settings, selection: $settingInfo.currentSideBarPage){
+                NavigationLink(value: TabIdentifier.settings) {
                     Label("Setting", systemImage: "circles.hexagongrid")
                 }
-                
-                
             }
             .navigationTitle("LovelyPlace")
-            .listStyle(SidebarListStyle())
             .onOpenURL{ url in
                 //guard let tabIdentifier = url.tabIdentifier else {return}
                 //activeTab = [tabIdentifier]
             }
             Text("Hello, Welcome Back")
             
+        } detail: {
+            NavigationStack {
+                switch settingInfo.currentSideBarPage {
+                case .timeline: TimelineMenu()
+                case .daycounter: DayCountView(settingInfo: settingInfo)
+                case .settings: SettingView(settingInfo: settingInfo)
+                default: TimelineMenu()
+                }
+            }
         }
-        .navigationViewStyle(DoubleColumnNavigationViewStyle())
     }
 }
 

@@ -11,7 +11,7 @@ struct AppTabNavigation: View {
     @ObservedObject var settingInfo: DataController
     
     var body: some View {
-        TabView(selection: $settingInfo.currentTabBarPage){
+        TabView(selection: $settingInfo.currentSideBarPage.unwrapBinding(TabIdentifier.timeline)){
             NavigationView {
                 TimelineView()
             }
